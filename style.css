@@ -1,0 +1,125 @@
+:root {
+    --text-light: #f6f2e9;
+    --text-muted: #d8d1c5;
+    --panel-background: rgba(7, 17, 28, 0.72);
+    --panel-border: rgba(255, 255, 255, 0.22);
+    --button-background: rgba(9, 28, 47, 0.72);
+    --button-hover: rgba(30, 86, 125, 0.88);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--text-light);
+    background-color: #08121c;
+}
+
+.landing-page {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+
+    background:
+        linear-gradient(
+            rgba(3, 11, 19, 0.38),
+            rgba(3, 11, 19, 0.72)
+        ),
+        url("images/horey-map.jpg") center / cover no-repeat;
+}
+
+.welcome-panel {
+    width: min(680px, 100%);
+    padding: clamp(32px, 6vw, 64px);
+    text-align: center;
+
+    background: var(--panel-background);
+    border: 1px solid var(--panel-border);
+    border-radius: 4px;
+    backdrop-filter: blur(4px);
+}
+
+.eyebrow {
+    margin: 0 0 24px;
+    font-size: 0.8rem;
+    letter-spacing: 0.35em;
+    color: var(--text-muted);
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(2.4rem, 7vw, 4.8rem);
+    font-weight: 500;
+}
+
+h2 {
+    margin: 16px 0 36px;
+    font-size: clamp(1rem, 3vw, 1.45rem);
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+}
+
+.introduction {
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.introduction p {
+    margin: 6px 0;
+}
+
+.language-selection {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.language-button {
+    min-width: 150px;
+    padding: 14px 24px;
+
+    color: var(--text-light);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+
+    background: var(--button-background);
+    border: 1px solid var(--panel-border);
+
+    transition:
+        background-color 180ms ease,
+        transform 180ms ease;
+}
+
+.language-button:hover,
+.language-button:focus-visible {
+    background: var(--button-hover);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 520px) {
+
+    .welcome-panel {
+        padding: 32px 22px;
+    }
+
+    .language-selection {
+        flex-direction: column;
+    }
+
+    .language-button {
+        width: 100%;
+    }
+
+}
