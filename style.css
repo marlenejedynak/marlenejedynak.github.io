@@ -33,7 +33,7 @@ body {
         linear-gradient(
             rgba(3, 11, 19, 0.38),
             rgba(3, 11, 19, 0.72)
-        ),
+        );
 }
 
 .welcome-panel {
