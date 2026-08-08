@@ -68,6 +68,24 @@ body {
   pointer-events: none;
 }
 
+.welcome-panel::before {
+  content: "";
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  background-image: url("images/arabesques.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  top: 24px;
+  left: 24px;
+
+  opacity: 0.3;
+  pointer-events: none;
+}
+
 .eyebrow {
     margin: 0 0 42px;
     font-family: "Inter", sans-serif;
