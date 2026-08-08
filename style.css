@@ -43,7 +43,7 @@ body {
     text-align: center;
 
     background: var(--panel-background);
-    border: 1px solid var(--panel-border);
+    border: 10px solid red !important;
     border-radius: 4px;
     backdrop-filter: blur(4px);
 }
