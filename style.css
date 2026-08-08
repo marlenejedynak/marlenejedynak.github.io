@@ -68,21 +68,22 @@ body {
   pointer-events: none;
 }
 
-.welcome-panel::before {
+.welcome-panel::after {
   content: "";
   position: absolute;
 
   width: 180px;
   height: 180px;
 
-  background-image: url("images/arabesques.png");
+  background-image: url("images/arabesque.png");
   background-size: contain;
   background-repeat: no-repeat;
 
-  top: 24px;
-  left: 24px;
+  bottom: 24px;
+  right: 24px;
 
   opacity: 0.3;
+  transform: rotate(180deg);
   pointer-events: none;
 }
 
