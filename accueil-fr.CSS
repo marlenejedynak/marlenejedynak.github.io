@@ -1,3 +1,10 @@
+.bodoni-moda-<uniquifier> {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 :root {
   --background: #fbfaf7;
   --text: #211116;
