@@ -34,7 +34,6 @@ body {
             rgba(3, 11, 19, 0.38),
             rgba(3, 11, 19, 0.72)
         ),
-        url("images/horey-map.jpg") center / cover no-repeat;
 }
 
 .welcome-panel {
@@ -46,6 +45,9 @@ body {
     border: 1px solid var(--panel-border);
     border-radius: 4px;
     backdrop-filter: blur(4px);
+
+    position: relative;
+    overflow: hidden;
 }
 
 .eyebrow {
