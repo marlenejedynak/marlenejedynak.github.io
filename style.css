@@ -148,5 +148,32 @@ h2::after {
     .language-button {
         width: 100%;
     }
+    .floral-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 45px;
+    color: #b8aa96;
+}
+
+.floral-divider > span:first-child,
+.floral-divider > span:last-child {
+    width: 70px;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.6;
+}
+
+.floral-symbol {
+    font-size: 0.65rem;
+    opacity: 0.8;
+}
+
+.floral-flower {
+    font-size: 1.2rem;
+    line-height: 1;
+}
 
 }
