@@ -50,43 +50,6 @@ body {
     overflow: hidden;
 }
 
-.welcome-panel::before {
-  content: "";
-  position: absolute;
-
-  width: 180px;
-  height: 180px;
-
-  background-image: url("images/arabesques.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  top: 24px;
-  left: 24px;
-
-  opacity: 0.3;
-  pointer-events: none;
-}
-
-.welcome-panel::after {
-  content: "";
-  position: absolute;
-
-  width: 180px;
-  height: 180px;
-
-  background-image: url("images/arabesques.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  bottom: 24px;
-  right: 24px;
-
-  opacity: 0.3;
-  transform: rotate(180deg);
-  pointer-events: none;
-}
-
 .eyebrow {
     margin: 0 0 42px;
     font-family: "Inter", sans-serif;
