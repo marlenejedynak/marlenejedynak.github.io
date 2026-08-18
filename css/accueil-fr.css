@@ -4,6 +4,7 @@
   --blue: #23446D;
   --turquoise: #0D7C84;
   --gold: #B08D57;
+  --accent: var(--turquoise);
 
   --border: #D8CFC4;
   --card-background: #FFFFFF;
