@@ -257,3 +257,6 @@ h1 {
   }
 
 }
+.game-nav li:last-child {
+  grid-column: 1 / -1;
+}
