@@ -217,44 +217,6 @@ h1 {
   outline: none;
 }
 
-/* =========================
-   FOOTER
-========================= */
-
-.site-footer {
-  width: min(1180px, calc(100% - 40px));
-  margin: 0 auto;
-  padding: 28px 0 32px;
-  border-top: 1px solid var(--border);
-  text-align: center;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-  font-size: 0.9rem;
-}
-
-.footer-links a {
-  color: var(--text);
-  text-decoration: none;
-  transition: color 160ms ease;
-}
-
-.footer-links a:hover,
-.footer-links a:focus-visible {
-  color: var(--accent);
-  outline: none;
-}
-
-.footer-copyright {
-  margin: 12px 0 0;
-  color: #5c5053;
-  font-size: 0.8rem;
-}
-
 
 /* =========================
    RESPONSIVE
