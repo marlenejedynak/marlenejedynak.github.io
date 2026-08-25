@@ -94,7 +94,7 @@ h1 {
 
 
 /* =========================
-   GAME PROJECT NAVIGATION
+   DOCUMENTATION-NARRATIVE-DESIGN
 ========================= */
 
 .game-nav {
@@ -144,6 +144,10 @@ h1 {
     color 160ms ease;
 }
 
+.game-nav li:last-child {
+  grid-column: 1 / -1;
+}
+
 
 /* =========================
    HOVER
@@ -190,8 +194,12 @@ h1 {
 
   line-height: 1.45;
 }
-
-
+.doc-number {
+  font-family: "Inter", sans-serif;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
 /* =========================
    RETURN LINK
 ========================= */
