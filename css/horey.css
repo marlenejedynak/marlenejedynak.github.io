@@ -225,3 +225,36 @@ body {
     border-radius: 4px;
     box-shadow: 0 12px 35px rgba(42, 33, 29, 0.08);
 }
+/* =========================================================
+   NARRATIVE PATH
+   ========================================================= */
+
+.narrative-path {
+    max-width: 820px !important;
+    margin: 34px 0 38px !important;
+    padding: 24px 28px;
+
+    border-top: 1px solid rgba(176, 141, 87, 0.45);
+    border-bottom: 1px solid rgba(176, 141, 87, 0.45);
+
+    color: #23446D;
+    font-family: "Bodoni Moda", serif;
+    font-size: clamp(1.3rem, 3vw, 1.7rem);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+}
+
+.narrative-path span {
+    margin: 0 0.35em;
+    color: #B08D57;
+}
+
+@media (max-width: 700px) {
+
+    .narrative-path {
+        padding: 20px 0;
+        line-height: 1.8;
+    }
+
+}
