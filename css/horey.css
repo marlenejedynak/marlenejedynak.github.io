@@ -258,3 +258,162 @@ body {
     }
 
 }
+/* =========================================================
+   PLACES CAROUSEL
+   ========================================================= */
+
+.horey-carousel {
+    position: relative;
+    width: 100%;
+    margin-top: 38px;
+}
+
+.carousel-viewport {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #2A211D;
+    box-shadow: 0 12px 35px rgba(42, 33, 29, 0.10);
+}
+
+.carousel-slide {
+    display: none;
+    margin: 0;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.carousel-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-slide figcaption {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+
+    padding: 18px 22px;
+
+    background: #F8F5F0;
+    border: 1px solid rgba(42, 33, 29, 0.14);
+    border-top: 0;
+}
+
+.carousel-slide figcaption strong {
+    color: #23446D;
+    font-family: "Bodoni Moda", serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.carousel-slide figcaption span {
+    color: #2A211D;
+    font-size: 0.9rem;
+}
+
+
+/* ---------- ARROWS ---------- */
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+
+    width: 46px;
+    height: 46px;
+
+    border: 1px solid rgba(248, 245, 240, 0.55);
+    border-radius: 50%;
+
+    background: rgba(42, 33, 29, 0.62);
+    color: #F8F5F0;
+
+    font-size: 1.4rem;
+    line-height: 1;
+
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.carousel-button:hover {
+    background: rgba(35, 68, 109, 0.9);
+    transform: translateY(-50%) scale(1.06);
+}
+
+.carousel-prev {
+    left: 18px;
+}
+
+.carousel-next {
+    right: 18px;
+}
+
+
+/* ---------- DOTS ---------- */
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 22px;
+}
+
+.carousel-dot {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+
+    border: 0;
+    border-radius: 50%;
+
+    background: rgba(42, 33, 29, 0.25);
+
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.carousel-dot.active {
+    background: #B08D57;
+    transform: scale(1.25);
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 700px) {
+
+    .carousel-button {
+        width: 38px;
+        height: 38px;
+        font-size: 1.1rem;
+    }
+
+    .carousel-prev {
+        left: 10px;
+    }
+
+    .carousel-next {
+        right: 10px;
+    }
+
+    .carousel-slide figcaption {
+        display: block;
+        padding: 15px 18px;
+    }
+
+    .carousel-slide figcaption strong,
+    .carousel-slide figcaption span {
+        display: block;
+    }
+
+    .carousel-slide figcaption span {
+        margin-top: 2px;
+    }
+
+}
