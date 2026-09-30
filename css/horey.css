@@ -315,6 +315,12 @@ body {
     font-size: 0.9rem;
 }
 
+.carousel-slide figcaption small {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.72rem;
+    opacity: 0.6;
+}
 
 /* ---------- ARROWS ---------- */
 
