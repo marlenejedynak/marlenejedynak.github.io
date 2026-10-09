@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700&family=Fleur+De+Leah&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Aetherfall — Projet de jeu</title>
+  <!-- Ajuster le chemin si cette page se trouve à un autre niveau de dossiers. -->
+  <link rel="stylesheet" href="../../../css/univers_aetherfall.css">
+</head>
+<body>
+<main class="page">
+  <article class="world-page">
+    <header class="world-header">
+      <p class="eyebrow">Projet de jeu · MMORPG fictif</p>
+      <h1>Aetherfall</h1>
+      <p class="world-type">Vision et principes de conception</p>
+    </header>
+
+    <section class="world-section">
+      <p class="section-number">01</p>
+      <h2>Vision du jeu</h2>
+      <p class="lead">Aetherfall est un MMORPG fantasy persistant conçu autour de la liberté de parcours.</p>
+      <p>Le jeu propose un monde ouvert à l'exploration, dans lequel chaque joueur construit sa propre expérience selon ses motivations, ses découvertes et ses choix.</p>
+      <p>Après un tutoriel à Yiri, le joueur peut librement s'orienter vers les activités qui l'intéressent : exploration, combat, artisanat, commerce, coopération, compétition ou événements narratifs. Aucun parcours unique ne lui est imposé.</p>
+      <p>Cette liberté individuelle s'inscrit cependant dans un monde dont l'histoire continue d'évoluer. Les grands événements transforment durablement Aetherfall, indépendamment de la participation de chaque joueur.</p>
+      <h3>Principe directeur</h3>
+      <p><em>Le monde poursuit son histoire ; le joueur choisit la sienne.</em></p>
+    </section>
+
+    <section class="world-section">
+      <p class="section-number">02</p>
+      <h2>Liberté et expérience joueur</h2>
+      <p class="lead">Aetherfall permet à des profils de joueurs différents de construire des expériences différentes à partir d'un même monde.</p>
+      <p>Après le tutoriel, chaque joueur définit ses propres objectifs et choisit librement ses activités : exploration, quêtes, donjons, cartographie, collecte de ressources, artisanat, commerce, navigation, piraterie, PvE, PvP, raids ou événements.</p>
+      <p>Ces activités peuvent être pratiquées seul, en petit groupe ou au sein d'une guilde. Elles ne sont pas réservées à des classes ou spécialisations particulières : les compétences et le build du personnage influencent sa manière de les aborder, sans lui en interdire l'accès.</p>
+      <p>Un joueur peut ainsi consacrer son temps à l'exploration et à la recherche de connaissances, tandis qu'un autre privilégie la puissance, le combat ou les échanges commerciaux. Il peut également changer d'objectifs et de pratiques au fil de son aventure.</p>
+      <h3>Principe directeur</h3>
+      <p><em>Le jeu ne donne pas au joueur une motivation : il lui donne un monde dans lequel poursuivre la sienne.</em></p>
+    </section>
+
+    <section class="world-section">
+      <p class="section-number">03</p>
+      <h2>Identité et progression</h2>
+      <p class="lead">Dans Aetherfall, l'identité du personnage se construit progressivement, sans être figée par les choix effectués lors de sa création.</p>
+      <p>Le joueur commence avec l'un des quatre rôles généraux : Mage, Fantassin, Guérisseur ou Roublard. En développant ses compétences, il accède progressivement à des spécialisations correspondant à sa manière de jouer.</p>
+      <p>Cette progression est cumulative : changer de spécialisation n'efface pas les compétences précédemment acquises. Elles restent intégrées au personnage et contribuent à la construction de son build.</p>
+      <p>Cette liberté ne signifie cependant pas que toutes les compétences se valent. Un personnage peut développer plusieurs domaines sans atteindre nécessairement la maîtrise d'un joueur qui s'y consacre pleinement.</p>
+      <h3>Exemple — Karin</h3>
+      <p>Karin commence son aventure comme Roublard, avant de se spécialiser en Assassin. Ses activités maritimes la conduisent ensuite vers Pirate, sans effacer les compétences acquises au cours de ses précédentes spécialisations.</p>
+      <p>Son build reflète ainsi l'ensemble de son parcours, plutôt que sa seule spécialisation actuelle.</p>
+      <h3>Principe directeur</h3>
+      <p><em>La progression n'efface pas le parcours du personnage : elle s'appuie sur lui.</em></p>
+    </section>
+
+    <section class="world-section">
+      <p class="section-number">04</p>
+      <h2>Narration et monde persistant</h2>
+      <p class="lead">Aetherfall propose une narration fondée sur l'exploration et un monde dont l'histoire évolue indépendamment des joueurs.</p>
+      <p>La découverte narrative n'est pas imposée par une quête principale unique. Le joueur rassemble progressivement des informations à travers les lieux, les PNJ, les ruines, les quêtes et les événements. Sa curiosité peut lui permettre de découvrir de nouveaux contenus, de débloquer des missions ou de partager et commercialiser ses connaissances.</p>
+      <p>Parallèlement, les événements historiques transforment durablement le monde. Leurs conséquences concernent tous les joueurs, même ceux qui choisissent de ne pas y participer.</p>
+      <p>Certains événements proposent des parcours mutuellement exclusifs. Les décisions prises et les récompenses obtenues deviennent alors les traces individuelles d'une période de l'histoire collective.</p>
+      <h3>Exemple — Mariage Bond / Wolf</h3>
+      <p>Un événement majeur propose deux parcours incompatibles, chacun associé à une expérience et à des récompenses spécifiques. À son terme, un nouveau continent devient accessible à tous les joueurs, indépendamment de leur participation. Les parcours historiques terminés ne peuvent pas être rejoués.</p>
+      <h3>Principe directeur</h3>
+      <p><em>Le monde conserve les conséquences de son histoire ; chaque joueur conserve les traces de la sienne.</em></p>
+    </section>
+
+    <section class="world-section">
+      <p class="section-number">05</p>
+      <h2>Expérience sociale</h2>
+      <p class="lead">Dans Aetherfall, les interactions sociales naissent des activités, des besoins et des choix des joueurs, sans constituer une obligation de progression.</p>
+      <p>Le joueur peut évoluer seul, rejoindre temporairement un groupe ou intégrer une guilde. Ces formes de participation restent libres et peuvent évoluer au fil de son aventure.</p>
+      <p>Les villes, les marchés, les services d'artisanat et les quartiers généraux des guildes constituent des lieux de rencontre et d'échange. Les joueurs peuvent y coopérer, organiser des activités communes ou développer leurs propres relations commerciales.</p>
+      <p>La connaissance participe également à cette dynamique. Les informations découvertes lors de l'exploration peuvent être partagées, échangées ou vendues, donnant une valeur sociale et économique à la curiosité individuelle.</p>
+      <h3>Exemple — La guilde The Burning Bush</h3>
+      <p>Cette guilde rassemble des joueurs aux motivations différentes. Certains privilégient l'exploration, d'autres le combat, le commerce ou les activités collectives. Leur appartenance à une même communauté ne les oblige pas à poursuivre les mêmes objectifs.</p>
+      <h3>Principe directeur</h3>
+      <p><em>Le jeu crée les lieux, les besoins et les occasions de rencontre ; le joueur décide de la place qu'elles prennent dans son parcours.</em></p>
+    </section>
+
+    <!-- À activer une fois l'URL du document maître connue :
+    <a class="back-link" href="URL_DU_DOCUMENT_MAITRE">Consulter le document maître complet</a>
+    -->
+  </article>
+</main>
+</body>
+</html>
